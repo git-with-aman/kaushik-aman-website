@@ -1,1 +1,15 @@
-# ALL Styles
+.navbar{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
