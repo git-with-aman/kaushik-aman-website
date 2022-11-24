@@ -1,8 +1,22 @@
-.navbar{
-    background-color: aqua;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
+    width: 100vw;
+    cursor: pointer;
+    color: white;
+}
+
+.brand{
+    margin-right: 20px;
 }
 ul li{
     list-style: none;
@@ -13,13 +27,23 @@ ul li{
     display: flex;
     align-items: center;
 }
-#main-body{
-    width: 100%;
-    height: 100%;
+#main-header{
+    width: 100vw;
+    height: 100vh;
     background-image: url("images/blog.jpg");
     background-size:cover;
-    margin: 0 auto;
 }
 #main-heading{
     color: white;
+    /* margin: 50%; */
+}
+.body-header{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.body-header button{
+    margin-top: 10px;
 }
